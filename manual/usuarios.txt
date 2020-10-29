@@ -1,0 +1,10 @@
+
+Roles	Username	Password
+Admin	admin@admin.com	12345
+Doctor	doctor@admin.com	12345
+enfermera	enfermera@admin.com	12345
+Farmacéutico	farmaceutico@admin.com	12345
+Contador	contador@admin.com	12345
+Paciente	paciente@admin.com	12345
+Laboratorista	laboratorista@admin.com	12345
+Recepcionista	recepcionista@admin.com	12345
