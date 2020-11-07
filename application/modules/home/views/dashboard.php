@@ -176,7 +176,7 @@
                         <!-- patient notification end -->  
                       
                         <!-- medicine notification start-->
-                        <!--<?php if ($this->ion_auth->in_group(array('admin', 'Pharmacist', 'Doctor'))) { ?> 
+                        <?php if ($this->ion_auth->in_group(array('admin', 'Pharmacist', 'Doctor'))) { ?> 
                             <li id="header_notification_bar" class="dropdown">
                                 <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                     <i class="fa fa-medkit"></i>
@@ -214,7 +214,7 @@
                                     </li>
                                 </ul>
                             </li>
-                        <?php } ?> -->
+                        <?php } ?> 
                         <!-- medicine notification end -->  
                       
                     </ul>

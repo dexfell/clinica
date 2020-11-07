@@ -2,10 +2,10 @@
 <!--main content start-->
 <section id="main-content">
     <section class="wrapper site-min-height">
-        <!--state overview start-->
+        <!--state overview start
 
-        <!--
-        <div class="state-overview col-md-3" style="padding: 23px 0px;">
+        
+         <!--<div class="state-overview col-md-3" style="padding: 23px 0px;">
         <?php if ($this->ion_auth->in_group(array('admin', 'Accoutant', 'Receptionist'))) { ?> 
                                         <div class="col-lg-12 col-sm-6">
                                             <a href="finance/addPaymentView">
@@ -60,21 +60,10 @@
                                             <a href="settings/language">
                                                 <div class="panel-heading add_prescription"> <?php echo lang('change_language'); ?> </div> 
                                             </a>
-                                        </div>
-        <?php } ?>
-            
-        </div> -->
-        
-        
-        
-        
-           
-        
-        
-       
-
-
-        <div class="state-overview col-md-12" style="padding: 23px 0px;">
+                                        </div> -->
+        <?php }  
+        ?>
+        <div class="state-overview col-md-12" style="padding: 10px 60px;">
             <div class="col-lg-3 col-sm-6">
                 <?php if ($this->ion_auth->in_group('admin')) { ?>
                     <a href="doctor">
@@ -217,12 +206,7 @@
                     <?php if ($this->ion_auth->in_group('admin')) { ?>
                     </a>
                 <?php } ?>
-            </div>-->
-
-
-
-
-
+            </div>
             <div class="col-lg-3 col-sm-6">
                 <?php if ($this->ion_auth->in_group('admin')) { ?>
                     <a href="medicine">
@@ -243,10 +227,6 @@
                 <?php } ?>
             </div>
 
-
-
-          
-
             <?php if ($this->ion_auth->in_group('admin')) { ?>
                 <div class="col-lg-6 col-sm-6">    
                     <a href="finance/payment">
@@ -262,7 +242,7 @@
                             </div>
                         </section>         
                     </a>     
-                </div>-->
+                </div> -->
 
 
                
@@ -334,12 +314,12 @@
 
             .fc-head{
 
-                box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+                box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
 
             }
 
             .panel-body{
-                background: #fff;
+                background: #ff0;
             }
 
             thead{
@@ -355,8 +335,8 @@
                 background: #fff !important;
                 color: #000;
                 padding-left: 10px;
-                font-size: 13px !important;
-                margin-top: 3px;
+                font-size: 36px !important;
+                margin-top: 22px;
                 text-align: center;
             }
 
@@ -368,8 +348,8 @@
                 background: #f8d347;
             }
 
-            .add_prescription{
-                background: blue;
+             .add_prescription{
+                background: brown;
             }
 
             .add_lab_report{
@@ -409,7 +389,7 @@
         </style>
 
 
-        <!--state overview end-->
+        <!--state overview end -->
     </section>
 </section>
 <!--main content end-->
