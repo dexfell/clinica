@@ -196,7 +196,7 @@
             </div>
 
 
-            <!-- verificar-->
+            
 
             
             <div class="col-lg-3 col-sm-6">
@@ -245,7 +245,7 @@
 
 
 
-            <!-- verificar-->
+          
 
             <?php if ($this->ion_auth->in_group('admin')) { ?>
                 <div class="col-lg-6 col-sm-6">    
@@ -276,8 +276,8 @@
 
 
 
-        <!--quitar esto
-       <!-- <div class="state-overview col-md-12">
+        
+        <div class="state-overview col-md-12">
             <aside class="calendar_ui">
                 <section class="">
                     <div class="">
@@ -290,7 +290,7 @@
         
 
 
-        <!--<div class="col-lg-12">
+        <div class="col-lg-12">
             <section class="panel">
                 <header class="panel-heading">
         <?php echo lang('patient_appointment_graph'); ?>
@@ -323,14 +323,7 @@
             </section>
         </div>
 
-        -->
-
-
-
-
-
         
-
 
 
         <style>
