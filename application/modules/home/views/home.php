@@ -329,11 +329,11 @@
 
 
 
-        <!-- quitar este comentario
+        <!-- quitar este comentario -->
 
 
 
-      <!--  <style>
+        <style>
 
             table{
                 box-shadow: none;
