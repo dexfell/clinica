@@ -455,7 +455,8 @@
                                 </ul>
                             </li>
                         <?php } ?>-->
-                        <?php if ($this->ion_auth->in_group(array('admin'))) { ?>
+
+                       <!-- <?php if ($this->ion_auth->in_group(array('admin'))) { ?>
                             <li class="sub-menu">
                                 <a href="javascript:;" >
                                     <i class="fa fa-envelope-o"></i>
@@ -469,7 +470,7 @@
                                     <?php } ?>
                                 </ul>
                             </li> 
-                        <?php } ?>
+                        <?php } ?> -->
                         <!--<?php if ($this->ion_auth->in_group(array('admin'))) { ?>
 
                             <li> <li class="sub-menu">

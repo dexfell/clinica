@@ -226,8 +226,8 @@
                     </a>
                 <?php } ?>
             </div>
-
-            <?php if ($this->ion_auth->in_group('admin')) { ?>
+            <!--boton de pago paciente-->
+            <!--<?php if ($this->ion_auth->in_group('admin')) { ?>
                 <div class="col-lg-6 col-sm-6">    
                     <a href="finance/payment">
                         <section class="panel">
