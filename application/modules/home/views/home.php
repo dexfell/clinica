@@ -71,10 +71,10 @@
            
         
         
-        <!--quitar esto
+       
 
 
-       <!-- <div class="state-overview col-md-12" style="padding: 23px 0px;">
+        <div class="state-overview col-md-12" style="padding: 23px 0px;">
             <div class="col-lg-3 col-sm-6">
                 <?php if ($this->ion_auth->in_group('admin')) { ?>
                     <a href="doctor">

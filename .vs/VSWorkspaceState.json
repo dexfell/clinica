@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\application",
-    "\\manual"
+    "\\application\\modules",
+    "\\application\\modules\\home",
+    "\\application\\modules\\home\\views"
   ],
-  "SelectedNode": "\\manual\\usuarios.txt",
+  "SelectedNode": "\\application\\modules\\home\\views\\home.php",
   "PreviewInSolutionExplorer": false
 }
