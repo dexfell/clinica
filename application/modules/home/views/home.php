@@ -196,9 +196,9 @@
             </div>
 
 
+            <!-- verificar-->
 
-
-            <!--
+            
             <div class="col-lg-3 col-sm-6">
                 <?php if ($this->ion_auth->in_group('admin')) { ?>
                     <a href="finance/payment">
@@ -242,7 +242,12 @@
                     </a>
                 <?php } ?>
             </div>
-            <!--<?php if ($this->ion_auth->in_group('admin')) { ?>
+
+
+
+            <!-- verificar-->
+
+            <?php if ($this->ion_auth->in_group('admin')) { ?>
                 <div class="col-lg-6 col-sm-6">    
                     <a href="finance/payment">
                         <section class="panel">
